@@ -67,26 +67,26 @@ def classify_video(description):
 
 def getcategory(category):
     if category == "1":
-        return "劇情 Drama"
+        return "Drama"
     elif category == "2":
-        return "喜劇 Comedy"
+        return "Comedy"
     elif category == "3":
-        return "動作/冒險 Action/Adventure"
+        return "Action/Adventure"
     elif category == "4":
-        return "科幻/奇幻 Sci-Fi/Fantasy"
+        return "Sci-Fi/Fantasy"
     elif category == "5":
-        return "恐怖/驚悚 Horror/Thriller"
+        return "Horror/Thriller"
     elif category == "6":
-        return "紀錄片 Documentary"
+        return "Documentary"
     elif category == "7":
-        return "動畫 Animation"
+        return "Animation"
     else:
         return "Unknown"
     
 def save_to_csv(video_id, duration, view_count, category, title, likerate, commentrate):
     """ 儲存結果到 CSV 檔案 """
     filename = "netflix_trailers.csv"
-    header = ["Video ID", "Title", "Duration (seconds)", "Views", "Category", "Category ID", "Like Rate", "Comment Rate"]
+    header = ["Video ID", "Title", "Duration", "Views", "Category", "Category ID", "Like Rate", "Comment Rate"]
     
     try:
         with open(filename, "r", encoding="utf-8-sig") as f:
