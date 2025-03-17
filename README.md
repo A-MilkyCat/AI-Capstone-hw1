@@ -14,6 +14,10 @@ Category - Series genre
               5. Horror/Thriller\
               6. Documentary\
               7. Animation\
+| Video ID  | Title  | Duration (s) | Views   | Category        | Category ID | Like Rate | Comment Rate |
+|-----------|----------------------------------------------|-------------|---------|----------------|-------------|------------|--------------|
+| QIw6ITiwgBU | The Electric State | Final Trailer | Netflix | 131 | 1801529 | Sci-Fi/Fantasy | 4 | 0.8 | 0.09 |
+| a_1-vyLcBpM | How to Sell Drugs Online (Fast): The Final Season | 117 | 30781 | Drama | 1 | 3.39 | 0.24 |
 Category ID – Encoded genre of the movie  
 Like Rate – Ratio of likes to total interactions  
 Comment Rate – Ratio of comment to total interactions  
