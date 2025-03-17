@@ -16,6 +16,6 @@ Category - Series genre
               6. Documentary
               7. Animation
 Scripts:  
-Kmean.py – Performs unsupervised clustering using K-Means to group trailers based on Duration, Views, and Like Rate.  
+### Kmean.py – Performs unsupervised clustering using K-Means to group trailers based on Duration, Views, and Like Rate.  
 supervised.py – Implements regression models to analyze relationships between trailer length and view count.  
 dnn.py – Uses a Deep Neural Network (DNN) for genre classification based on trailer features.  
