@@ -1,5 +1,5 @@
 # AI-Capstone-hw1
-##Dataset: ```/dataset/netflix_trailers.csv```
+## Dataset: ```/dataset/netflix_trailers.csv```
 This dataset contains information about Netflix movie trailers, including:
   
 | Video ID  | Title  | Duration (s) | Views   | Category        | Category ID | Like Rate | Comment Rate |
@@ -15,7 +15,7 @@ This dataset contains information about Netflix movie trailers, including:
 5. Horror/Thriller
 6. Documentary
 7. Animation  
-##Scripts:  
+## Scripts:  
 ```Kmean.py``` – Performs unsupervised clustering using K-Means to group trailers based on Duration, Views, and Like Rate.  
 ```supervised.py``` – Implements regression models to analyze relationships between trailer length and view count.  
 ```dnn.py``` – Uses a Deep Neural Network (DNN) for genre classification based on trailer features.  
